@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { Input } from "../components/ui/Input";
+import { Input } from "../components/ui/input";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Search } from "lucide-react";
 
