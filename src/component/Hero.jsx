@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/Button"; // Adjust relative path
+import { Button } from "@/components/ui/button"; // Adjust relative path
 import "../index.css"; // Ensure Tailwind CSS is included
 import backgroundImage from "../assets/pexels-francesco-ungaro-1670977.jpg";
 
