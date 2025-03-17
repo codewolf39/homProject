@@ -49,7 +49,7 @@ export default function Contacts() {
   return (
     <section
       id="contact"
-      className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 bg-muted"
+      className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 bg-amber-100"
     >
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">

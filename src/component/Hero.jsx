@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/Button"; // Adjust relative path
 import "../index.css"; // Ensure Tailwind CSS is included
+import backgroundImage from "../assets/pexels-francesco-ungaro-1670977.jpg";
 
 export default function Hero() {
   return (
@@ -8,8 +9,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage:
-            "url(https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1?height=1080&width=1920')",
+          backgroundImage: `url(${backgroundImage})`,
           backgroundPosition: "center",
         }}
       >
